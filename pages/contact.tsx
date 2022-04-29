@@ -1,8 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import type { NextPage } from 'next'
-import Link from 'next/link'
+// import Link from 'next/link'
 import Head from 'next/head'
-import Image from 'next/image'
 import { FaCircle } from 'react-icons/fa'
 
 import FollowCursor from './components/FollowerCursor'
@@ -11,8 +10,6 @@ import RisingAnimationText from './components/RisingAnimationText'
 import SmoothScroll from './components/SmoothScroll'
 import Landing from './components/Landing'
 import SocialBar from './components/SocialBar'
-import HoverEffectOnImage from './components/HoverEffectOnImage'
-import RisingAnimationDiv from './components/RisingAnimationDiv'
 
 import { motion } from 'framer-motion'
 import { CustomEase } from 'gsap/CustomEase'
@@ -240,13 +237,15 @@ const Home: NextPage = () => {
 										variants={animation}
 										className="animation-text1 flex"
 									>
-										studio&copy;
+										Cheshire&copy;
 										<div className="w-[500px] ml-28 mt-[40px] text-[14px] flex items-start leading-[15px]">
 											<FaCircle />
-											The pain itself is the love of the
-											pain, the main ecological elite, but
-											I give it as much time as possible
-											to cut it down.
+											Bonjour
+											Dia dhuit
+											Hi
+											Guten Tag
+											Yasou
+											Hola
 										</div>
 									</motion.p>
 								</div>
@@ -295,10 +294,7 @@ const Home: NextPage = () => {
 										<div className="text-[12px] flex items-start leading-[14px]">
 											<FaCircle />
 											<div className="ml-2 w-[300px]">
-												The pain itself is the love of
-												the pain, the main ecological
-												elite, but I give it as much
-												time as possible to cut it down.
+										BONJOUR DIA DHUIT HI GUTEN TAG YASOU HOLA
 											</div>
 										</div>
 									</motion.div>
@@ -310,16 +306,6 @@ const Home: NextPage = () => {
 							<SocialBar />
 						</section>
 
-						<section className="mx-auto w-full md:w-[1300px] md:mx-auto h-[236px] sm:h-[588px]">
-							<RisingAnimationDiv classes="w-full md:w-[1300px] md:mx-auto h-[236px] sm:h-[588px] mt-12 sm:mt-20 mb-15">
-								<HoverEffectOnImage
-									url="/img/contact/image.png"
-									width="1300px"
-									height="588px"
-								/>
-							</RisingAnimationDiv>
-						</section>
-
 						<section className="mt-20 sm:mt-32 mb-20">
 							<RisingAnimationText animateName="contact-text-animate1">
 								<div className=" relative overflow-hidden h-[40px] sm:h-[90px]">
@@ -327,7 +313,7 @@ const Home: NextPage = () => {
 										variants={animation}
 										className="contact-text-animate1 absolute top-[100px] left-0 text-[35px] sm:text-[76px] font-normal"
 									>
-										Slide in our DMs
+										Get Connected
 									</motion.p>
 								</div>
 
@@ -338,7 +324,7 @@ const Home: NextPage = () => {
 												variants={animation}
 												className="contact-text-animate1 absolute top-[100px] text-[14px] left-0"
 											>
-												(888) 888-8888
+												(86) 173 0627 6989
 											</motion.p>
 										</div>
 										<div className=" relative overflow-hidden h-[20px]">
@@ -347,41 +333,6 @@ const Home: NextPage = () => {
 												className="contact-text-animate1 absolute top-[100px] text-[14px] left-0"
 											>
 												knowscount@gmail.com
-											</motion.p>
-										</div>
-										<div className=" relative overflow-hidden h-[40px] mt-10">
-											<motion.p
-												variants={animation}
-												className="contact-text-animate1 absolute top-[100px] text-[30px] left-0"
-											>
-												GENERAL
-											</motion.p>
-										</div>
-									</div>
-
-									<div className="mt-16 sm:mt-0 w-[300px]">
-										<div className=" relative overflow-hidden h-[20px]">
-											<motion.p
-												variants={animation}
-												className="contact-text-animate1 absolute top-[100px] text-[14px] left-0"
-											>
-												Art Director
-											</motion.p>
-										</div>
-										<div className=" relative overflow-hidden h-[20px]">
-											<motion.p
-												variants={animation}
-												className="contact-text-animate1 absolute top-[100px] text-[14px] left-0"
-											>
-												Art@studio.coM
-											</motion.p>
-										</div>
-										<div className=" relative overflow-hidden h-[40px] mt-10">
-											<motion.p
-												variants={animation}
-												className="contact-text-animate1 absolute top-[100px] text-[30px] left-0"
-											>
-												NEW BUSINESS
 											</motion.p>
 										</div>
 									</div>
@@ -404,26 +355,6 @@ const Home: NextPage = () => {
 									className="flex items-center justify-center md:justify-start"
 								>
 									<div className="text-white flex justify-center items-center relative mx-4 md:ml-16">
-										<img
-											src="img/maskLeft.png"
-											style={{
-												height: '100%',
-												display: isDark
-													? 'block'
-													: 'none',
-											}}
-											className="absolute top-0 left-[0px] z-10 pointer-events-none"
-										/>
-										<img
-											src="img/maskleftlight.png"
-											style={{
-												height: '100%',
-												display: isDark
-													? 'none'
-													: 'block',
-											}}
-											className="absolute top-0 left-[0px] z-10 pointer-events-none"
-										/>
 										<button
 											className={
 												isDark
@@ -455,31 +386,9 @@ const Home: NextPage = () => {
 												</div>
 											</div>
 										</button>
-										<img
-											src="img/maskRight.png"
-											style={{
-												height: '100%',
-												display: isDark
-													? 'block'
-													: 'none',
-											}}
-											className="absolute top-0 right-[0px] z-10 pointer-events-none"
-										/>
-										<img
-											src="img/maskrightlight.png"
-											style={{
-												height: '100%',
-												display: isDark
-													? 'none'
-													: 'block',
-											}}
-											className="absolute top-0 right-[0px] z-10 pointer-events-none"
-										/>
 									</div>
 									<p className="text-14 ml-12 hidden md:block ">
-										DESIGN STUDIO
-										<br />
-										LOS ANGELES
+										CHESHIRECAT
 									</p>
 								</div>
 								<p
