@@ -230,8 +230,7 @@ const Home: NextPage = () => {
 										variants={animation}
 										className="animation-text1"
 									>
-										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The pain
-										itself is love,
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A chance for you
 									</motion.p>
 								</div>
 								<div className="relative overflow-hidden h-[100px]">
@@ -239,7 +238,7 @@ const Home: NextPage = () => {
 										variants={animation}
 										className="animation-text1"
 									>
-										but the pain is the main
+										to say what you&apos;d like
 									</motion.p>
 								</div>
 								<div className="relative overflow-hidden h-[100px]">
@@ -247,398 +246,10 @@ const Home: NextPage = () => {
 										variants={animation}
 										className="animation-text1"
 									>
-										reason to do so
+										to say, artisically
 									</motion.p>
 								</div>
 							</motion.div>
-
-							<div className="title1-mobile mt-10 text-[40px] font-normal">
-								<div className="animation-mask -mb-4 leading-12">
-									<motion.p
-										variants={animation}
-										className="animation-text1"
-									>
-										&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum
-									</motion.p>
-								</div>
-								<div className="animation-mask -mb-4 leading-12">
-									<motion.p
-										variants={animation}
-										className="animation-text1"
-									>
-										dolor sit amet,
-									</motion.p>
-								</div>
-								<div className="animation-mask -mb-4 leading-12">
-									<motion.p
-										variants={animation}
-										className="animation-text1"
-									>
-										consectetur
-									</motion.p>
-								</div>
-								<div className="animation-mask -mb-4 leading-12">
-									<motion.p
-										variants={animation}
-										className="animation-text1"
-									>
-										adipiscing elit,
-									</motion.p>
-								</div>
-								<div className="animation-mask -mb-4 leading-12">
-									<motion.p
-										variants={animation}
-										className="animation-text1"
-									>
-										sed do
-									</motion.p>
-								</div>
-								<div className="animation-mask -mb-4 leading-12">
-									<motion.p
-										variants={animation}
-										className="animation-text1"
-									>
-										eiusmod
-									</motion.p>
-								</div>
-							</div>
-
-							<div className="mt-8 sm:mt-0 text-14 leading-[16px] w-full flex justify-end">
-								<div className="w-[460px]">
-									<DotText
-										scrollAnimation={true}
-										leftalign={false}
-										text="The pain itself is the love of the pain, the main ecological elite, but I give it as much time as possible to cut it down."
-									/>
-								</div>
-							</div>
-						</section>
-
-						<section className="about-image mt-20 sm:mt-32 w-full md:w-[1440px] md:mx-auto h-[236px] sm:h-[858px]">
-							<motion.section
-								exit="exitTwo"
-								variants={animation}
-								style={{
-									opacity: 0,
-									transform: 'translate(0,200px)',
-								}}
-								ref={swiperImages}
-								className="about-image mt-20 mt-32 w-full md:w-[1440px] md:mx-auto h-[236px] sm:h-[858px]"
-							>
-								<HoverEffectOnImage
-									url="/img/about/image.png"
-									width="1440px"
-									height="858px"
-								/>
-							</motion.section>
-						</section>
-
-						<section className="sm:mb-[0px] md:mb-[150px] lg:mb-[0px] text-[35px] sm:text-[53px] md:text-[62px] lg:text-[85px] xl:text-[97px] leading-[50px] md:leading-[100px] mt-[100px] sm:mt-[200px]">
-							<div className="hidden sm:block">
-								<RisingAnimationText animateName="about-text-animate1">
-									<div className="animate-mask relative overflow-hidden h-[100px]">
-										<motion.p
-											variants={animation}
-											className="about-text-animate1 absolute top-[300px] left-0"
-										>
-											&nbsp;&nbsp;The pain itself is the
-											love
-										</motion.p>
-									</div>
-									<div className="animate-mask relative overflow-hidden h-[100px]">
-										<motion.p
-											variants={animation}
-											className="about-text-animate1 absolute top-[300px] left-0"
-										>
-											of the pain, the main
-										</motion.p>
-									</div>
-									<div className="animate-mask relative overflow-hidden h-[100px]">
-										<motion.p
-											variants={animation}
-											className="about-text-animate1 absolute top-[300px] left-0"
-										>
-											<span
-												style={{
-													color: isDark
-														? color1
-														: color2,
-													background: isDark
-														? color2
-														: color1,
-												}}
-											>
-												ecological problems
-											</span>
-											, but
-										</motion.p>
-									</div>
-									<div className="animate-mask relative overflow-hidden h-[100px]">
-										<motion.p
-											variants={animation}
-											className="about-text-animate1 absolute top-[300px] left-0"
-										>
-											I give this kind of time to
-										</motion.p>
-									</div>
-									<div className="animate-mask relative overflow-hidden h-[100px]">
-										<motion.p
-											variants={animation}
-											className="about-text-animate1 absolute top-[300px] left-0"
-										>
-											{' '}
-											fall down, so that some
-										</motion.p>
-									</div>
-									<div className="animate-mask relative overflow-hidden h-[100px]">
-										<motion.p
-											variants={animation}
-											className="about-text-animate1 absolute top-[300px] left-0"
-										>
-											{' '}
-											great pain and pain. For
-										</motion.p>
-									</div>
-									<div className="animate-mask relative overflow-hidden h-[100px]">
-										<motion.p
-											variants={animation}
-											className="about-text-animate1 absolute top-[300px] left-0"
-										>
-											the purpose of coming to
-										</motion.p>
-									</div>
-									<div className="animate-mask relative overflow-hidden h-[100px]">
-										<motion.p
-											variants={animation}
-											className="about-text-animate1 absolute top-[300px] left-0"
-										>
-											a minimum, who of ours
-										</motion.p>
-									</div>
-									<div className="animate-mask relative overflow-hidden h-[100px]">
-										<motion.p
-											variants={animation}
-											className="about-text-animate1 absolute top-[300px] left-0"
-										>
-											should exercise any
-										</motion.p>
-									</div>
-									<div className="animate-mask relative overflow-hidden h-[100px]">
-										<motion.p
-											variants={animation}
-											className="about-text-animate1 absolute top-[300px] left-0"
-										>
-											employment except to
-										</motion.p>
-									</div>
-									<div className="animate-mask relative overflow-hidden h-[100px]">
-										<motion.p
-											variants={animation}
-											className="about-text-animate1 absolute top-[300px] left-0"
-										>
-											take advantage of the
-										</motion.p>
-									</div>
-									<div className="animate-mask relative overflow-hidden h-[100px]">
-										<motion.p
-											variants={animation}
-											className="about-text-animate1 absolute top-[300px] left-0"
-										>
-											consequences from it.
-										</motion.p>
-									</div>
-								</RisingAnimationText>
-							</div>
-
-							<div className="sm:hidden">
-								<RisingAnimationText animateName="about-text-mobile-animate1">
-									<div className="animate-mask relative overflow-hidden h-[40px]">
-										<motion.p
-											variants={animation}
-											className="about-text-mobile-animate1 absolute top-[300px] left-0"
-										>
-											&nbsp;&nbsp;The pain itself is the
-											love
-										</motion.p>
-									</div>
-									<div className="animate-mask relative overflow-hidden h-[40px]">
-										<motion.p
-											variants={animation}
-											className="about-text-mobile-animate1 absolute top-[300px] left-0"
-										>
-											THE LOVE OF THE PAIN, THE MAIN
-										</motion.p>
-									</div>
-									<div className="animate-mask relative overflow-hidden h-[40px]">
-										<motion.p
-											variants={animation}
-											className="about-text-mobile-animate1 absolute top-[300px] left-0"
-										>
-											<span
-												style={{
-													color: isDark
-														? color1
-														: color2,
-													background: isDark
-														? color2
-														: color1,
-												}}
-											>
-												ecological{' '}
-											</span>
-										</motion.p>
-									</div>
-									<div className="animate-mask relative overflow-hidden h-[40px]">
-										<motion.p
-											variants={animation}
-											className="about-text-mobile-animate1 absolute top-[300px] left-0"
-										>
-											<span
-												style={{
-													color: isDark
-														? color1
-														: color2,
-													background: isDark
-														? color2
-														: color1,
-												}}
-											>
-												problems
-											</span>
-											, I GIVE
-										</motion.p>
-									</div>
-									<div className="animate-mask relative overflow-hidden h-[40px]">
-										<motion.p
-											variants={animation}
-											className="about-text-mobile-animate1 absolute top-[300px] left-0"
-										>
-											this kind of time to
-										</motion.p>
-									</div>
-									<div className="animate-mask relative overflow-hidden h-[40px]">
-										<motion.p
-											variants={animation}
-											className="about-text-mobile-animate1 absolute top-[300px] left-0"
-										>
-											FALL DOWN, SO{' '}
-										</motion.p>
-									</div>
-									<div className="animate-mask relative overflow-hidden h-[40px]">
-										<motion.p
-											variants={animation}
-											className="about-text-mobile-animate1 absolute top-[300px] left-0"
-										>
-											THAT SOME GREAT
-										</motion.p>
-									</div>
-									<div className="animate-mask relative overflow-hidden h-[40px]">
-										<motion.p
-											variants={animation}
-											className="about-text-mobile-animate1 absolute top-[300px] left-0"
-										>
-											PAIN AND PAIN.
-										</motion.p>
-									</div>
-								</RisingAnimationText>
-							</div>
-
-							<div className="md:flex justify-between items-center mt-8 sm:mt-16">
-								<div className="text-14 w-full sm:w-[500px]">
-									<DotText
-										scrollAnimation={true}
-										leftalign={true}
-										text="our mission is to assist passionate brands to compete at a high level through strategy-led design."
-									/>
-								</div>
-
-								<div className="h-6 md:hidden" />
-
-								<motion.div
-									exit="exitTwo"
-									variants={animation}
-									className="flex justify-center"
-								>
-									<div className="text-white flex justify-center items-center relative">
-										<img
-											src="img/maskLeft.png"
-											style={{
-												height: '100%',
-												display: isDark
-													? 'block'
-													: 'none',
-											}}
-											className="absolute top-0 left-[0px] z-10 pointer-events-none"
-										/>
-										<img
-											src="img/maskleftlight.png"
-											style={{
-												height: '100%',
-												display: isDark
-													? 'none'
-													: 'block',
-											}}
-											className="absolute top-0 left-[0px] z-10 pointer-events-none"
-										/>
-										<Link scroll={false} href="/about">
-											<button
-												ref={buttonOne}
-												style={{
-													opacity: 0,
-													transform:
-														'translate(0,200px)',
-												}}
-												className={
-													isDark
-														? 'animation-button border-gray-700 mx-[1px]'
-														: 'animation-button blue-button border-gray-700 mx-[1px]'
-												}
-												onMouseMove={buttonOverIn}
-												onMouseLeave={buttonOverOut}
-											>
-												<div
-													className="btn-content h-[70px]"
-													style={{
-														color: isDark
-															? 'white'
-															: 'black',
-													}}
-												>
-													<div className="btn-content-group">
-														<div className="mx-2 text-16">
-															OUR SERVICES
-														</div>
-														<div className="mx-2">
-															{allow}
-														</div>
-													</div>
-												</div>
-											</button>
-										</Link>
-
-										<img
-											src="img/maskRight.png"
-											style={{
-												height: '100%',
-												display: isDark
-													? 'block'
-													: 'none',
-											}}
-											className="absolute top-0 right-[0px] z-10 pointer-events-none"
-										/>
-										<img
-											src="img/maskrightlight.png"
-											style={{
-												height: '100%',
-												display: isDark
-													? 'none'
-													: 'block',
-											}}
-											className="absolute top-0 right-[0px] z-10 pointer-events-none"
-										/>
-									</div>
-								</motion.div>
-							</div>
 						</section>
 
 						<section id="footer">
@@ -750,9 +361,9 @@ const Home: NextPage = () => {
 										/>
 									</div>
 									<p className="text-14 ml-12 hidden md:block ">
-										DESIGN STUDIO
+										CHESHIRE CAT
 										<br />
-										LOS ANGELES
+										CHESHIRE CAT
 									</p>
 								</div>
 								<p
@@ -762,9 +373,9 @@ const Home: NextPage = () => {
 									}}
 									className="text-14 text-center mt-4 md:hidden pr-16"
 								>
-									DESIGN STUDIO
+									CHESHIRE CAT
 									<br />
-									LOS ANGELES&nbsp;&nbsp;&nbsp;
+									CHESHIRE CAT&nbsp;&nbsp;&nbsp;
 								</p>
 								<div className="h-[75px] md:hidden" />
 								<p

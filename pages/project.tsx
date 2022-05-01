@@ -1018,9 +1018,9 @@ const Home: NextPage = () => {
 										/>
 									</div>
 									<p className="text-14 ml-12 hidden md:block ">
-										DESIGN STUDIO
+										CHESHIRE CAT
 										<br />
-										LOS ANGELES
+										CHESHIRE CAT
 									</p>
 								</div>
 								<p
@@ -1030,9 +1030,9 @@ const Home: NextPage = () => {
 									}}
 									className="text-14 text-center mt-4 md:hidden pr-16"
 								>
-									DESIGN STUDIO
+									CHESHIRE CAT
 									<br />
-									LOS ANGELES&nbsp;&nbsp;&nbsp;
+									CHESHIRE CAT&nbsp;&nbsp;&nbsp;
 								</p>
 								<div className="h-[75px] md:hidden" />
 								<p
