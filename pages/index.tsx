@@ -701,13 +701,13 @@ const Home: NextPage = () => {
 							<div className="h-[16px] md:h-[30px]"></div>
 							<HorizontalText
 								step={-2.1}
-								text="VICIS PRO /"
+								text="DICTIONARY REVISION /"
 								url={'img/img00.jpg'}
 								index={0}
 							/>
 							<HorizontalText
 								step={2.1}
-								text="OPEN FORMAT /"
+								text="high blood pressure /"
 								url={'img/img01.jpg'}
 								index={1}
 							/>

@@ -3,7 +3,7 @@ import { gsap } from 'gsap'
 import * as THREE from 'three'
 
 const ParallaxEffect = (props: any) => {
-	const [imageUrl, setImageUrl] = useState('img/product01.jpg')
+	const [imageUrl, setImageUrl] = useState('img/product01.png')
 	let parallaxRef = useRef<HTMLHeadingElement>(null)
 	let titleRef = useRef<HTMLHeadingElement>(null)
 	let imageRef = useRef<HTMLHeadingElement>(null)
@@ -42,19 +42,27 @@ const ParallaxEffect = (props: any) => {
 					<button
 						className="px-2"
 						onClick={() => {
-							setImageUrl('img/product01.jpg')
+							setImageUrl('img/product01.png')
 						}}
 					>
-						<img src="img/product01.jpg" style={{ height: 70 }} />
+						<img src="img/product01.png" style={{ height: 70 }} />
 					</button>
 					<button
 						className="px-2"
 						onClick={() => {
-							setImageUrl('img/product02.jpg')
+							setImageUrl('img/product02.png')
 						}}
 					>
-						<img src="img/product02.jpg" style={{ height: 70 }} />
+						<img src="img/product02.png" style={{ height: 70 }} />
 					</button>
+					{/* <button
+						className="px-2"
+						onClick={() => {
+							setImageUrl('img/product03.png')
+						}}
+					>
+						<img src="img/product03.png" style={{ height: 70 }} />
+					</button> */}
 				</div>
 			</div>
 

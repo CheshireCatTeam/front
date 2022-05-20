@@ -3,7 +3,7 @@ import { gsap } from 'gsap'
 import * as THREE from 'three'
 
 const ParallaxEffect = (props: any) => {
-	const [imageUrl, setImageUrl] = useState('img/product01.jpg')
+	const [imageUrl, setImageUrl] = useState('img/product01.png')
 	const [position, setPosition] = useState({ x: 0, y: 0 })
 	const [scene, setScene] = useState(new THREE.Scene())
 	const [viewport, setViewPort] = useState({
@@ -187,7 +187,7 @@ const ParallaxEffect = (props: any) => {
 	useEffect(() => {
 		if (imageRef.current) {
 			ParallaxImageRender()
-			changeImage('img/product01.jpg')
+			changeImage('img/product01.png')
 			imageRef.current.addEventListener(
 				'mousemove',
 				(event: { offsetX: number; offsetY: number }) => {
@@ -204,22 +204,22 @@ const ParallaxEffect = (props: any) => {
 					<button
 						className="px-2"
 						onClick={() => {
-							changeImage('img/product01.jpg')
+							changeImage('img/product01.png')
 						}}
 					>
 						<img
-							src="img/product01.jpg"
+							src="img/product01.png"
 							className="h-[35px] md:h-[70px]"
 						/>
 					</button>
 					<button
 						className="px-2"
 						onClick={() => {
-							changeImage('img/product02.jpg')
+							changeImage('img/product02.png')
 						}}
 					>
 						<img
-							src="img/product02.jpg"
+							src="img/product02.png"
 							className="h-[35px] md:h-[70px]"
 						/>
 					</button>
