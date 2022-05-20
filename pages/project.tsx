@@ -236,678 +236,174 @@ const Home: NextPage = () => {
 										variants={animation}
 										className="animation-text1 text-center w-full"
 									>
-										Project
+										The State Council has
+									</motion.p>
+								</div>
+								<div className="animation-mask">
+										<motion.p
+										variants={animation}
+										className="animation-text1 text-center w-full"
+									>
+										 initiated the Dictionary 
+									</motion.p>
+								</div>
+								<div className="animation-mask">
+										<motion.p
+										variants={animation}
+										className="animation-text1 text-center w-full"
+									>
+										 Revision Process
 									</motion.p>
 								</div>
 
-								<div className="text-14 w-full sm:w-[500px] mx-auto mt-16 sm:mt-36">
+								<div className='text-14 w-full sm:w-[70px] mx-auto'>
+									<span>by Amy</span>
+								</div>
+
+								<div className="text-14 w-full sm:w-[500px] mx-auto mt-10 sm:mt-20">
 									<DotText
 										scrollAnimation={true}
 										text={
-											'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.'
+											'Huaxian News Agency, January 13. The General Office of the State Council released the announcement of the initiation of Dictionary revision, aiming to protect citizens’ freedom of speech.'
 										}
 									/>
 								</div>
 							</motion.div>
 						</section>
 
-						<section className="w-full md:w-[1440px] md:mx-auto h-[236px] sm:h-[636px] mt-12 sm:mt-20 mb-15">
-							<motion.section
-								exit="exitTwo"
-								variants={animation}
-								style={{
-									opacity: 0,
-									transform: 'translate(0,200px)',
-								}}
-								ref={swiperImages}
-								className="w-full md:w-[1440px] md:mx-auto h-[236px] sm:h-[636px] mt-12 sm:mt-20 mb-15"
-							>
-								<HoverEffectOnImage
-									url="/img/projects/01.png"
-									width="1440px"
-									height="636px"
-								/>
-							</motion.section>
-						</section>
-
 						<div className="mt-14">
 							<DivisionLine color={'#FF5C00'} />
 						</div>
 
-						<section className="w-full h-full">
-							<RisingAnimationText animateName="project-text-animate0">
-								<div className="flex justify-between text-20 mt-2">
-									<div className="relative overflow-hidden h-[25px] w-[140px]">
-										<motion.p
-											variants={animation}
-											className="project-text-animate0 absolute top-[100px] left-0"
-										>
-											PROJECT
-										</motion.p>
-									</div>
-									<div className="relative overflow-hidden h-[25px] w-[140px]">
-										<motion.p
-											variants={animation}
-											className="project-text-animate0 absolute top-[100px] left-0"
-										>
-											PROJECT.COM
-										</motion.p>
-									</div>
-								</div>
-							</RisingAnimationText>
+						{/* a paragraph of centered text */}
+						<section className="mt-16 sm:mt-32">
+							<p>In line with the concern for the freedom of speech and convenience of citizens’ daily communication, as well as the usage of accurate and standardized written language, the State Council announced the official launch of the Dictionary’s revision process in the previous meeting. A few amendments are made, after throughout consideration by authoritative scholars, on the lexical expression, and are expected to be strictly applied in future oral and written expressions.</p>
+							<br />
+							<p>The main amendments are the following:</p>
+
+							{/* a table of two columns */}
+							<table className="table-auto w-full sm:w-[500px] mx-auto mt-8 sm:mt-18 mb-8 sm:mb-8">
+								<tr>
+									<th>Origin Lexion</th>
+									<th>After Modification</th>
+								</tr>
+								<tr>
+									<td>
+										Government
+									</td>
+									<td>
+										The Agency of Virtue and Morality
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Government official
+									</td>
+									<td>
+										Rights Defender
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Military
+									</td>
+									<td>
+										The Agency of Peace
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Soldier
+									</td>
+									<td>
+										Peace Defender
+									</td>
+								</tr>
+								<tr>
+									<td>
+										President
+									</td>
+									<td>
+										The Supreme
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Politics
+									</td>
+									<td>
+										The Doctrines of Virtue
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Democracy
+									</td>
+									<td>
+										The System of Chaos
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Communism
+									</td>
+									<td>
+										The System of Glory
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Independent
+									</td>
+									<td>
+										Seditious
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Protest
+									</td>
+									<td>
+										Prolidetariamitalhulyt
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Violate
+									</td>
+									<td>
+										Vilishimituvxihuralito
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Sedition
+									</td>
+									<td>
+										Sisdgiojadsdiofhgo
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Rebellion
+									</td>
+									<td>
+										Risoidjfgjioaiusdfion
+									</td>
+								</tr>
+							</table>
+							<p>
+								The sole purpose of the amendments is to protect the freedom of speech and to standardize spoken and written languages. After adequate evaluation, the positive effect of the following amendments is verified and is proven to meet citizens’ expectations of a more open and modern life.  
+							</p>
+							<br />
+							<p>
+								It should be noted that the origin lexicons must be modified in any texts or oral speech records, and misuse of word choice will be convicted of endangering public safety, which would face up to 15 years of sentence. We encourage every citizen to participate in whistleblowing of inappropriate use of words, and each report on misuse will receive a verbal reward from The Agency of Virtue and Morality. 
+							</p>
+							<br />
+							<p>
+								Every citizen is expected to respond actively to the Dictionary’s revision and its corresponding regulations, and build a society of love, care, and harmony together.  
+							</p>
 						</section>
-
-						<section className="hidden sm:block w-full h-full mt-28 text-[60px]">
-							<RisingAnimationText animateName="project-text-animate1">
-								<div className="relative overflow-hidden h-[70px]">
-									<motion.p
-										variants={animation}
-										className="project-text-animate1 absolute top-[100px] left-0"
-									>
-										Lorem ipsum dolor sit amet,
-									</motion.p>
-								</div>
-								<div className="relative overflow-hidden h-[70px]">
-									<motion.p
-										variants={animation}
-										className="project-text-animate1 absolute top-[100px] left-0"
-									>
-										consectetur adipiscing elit, sed
-									</motion.p>
-								</div>
-								<div className="relative overflow-hidden h-[70px]">
-									<motion.p
-										variants={animation}
-										className="project-text-animate1 absolute top-[100px] left-0"
-									>
-										do eiusmod tempor incididunt.
-									</motion.p>
-								</div>
-							</RisingAnimationText>
-						</section>
-						<section className="sm:hidden w-full h-full mt-28 text-[38px]">
-							<RisingAnimationText animateName="project-mobile-text-animate1">
-								<div className="relative overflow-hidden h-[50px]">
-									<motion.p
-										variants={animation}
-										className="project-mobile-text-animate1 absolute top-[100px] left-0"
-									>
-										Lorem ipsum
-									</motion.p>
-								</div>
-								<div className="relative overflow-hidden h-[50px]">
-									<motion.p
-										variants={animation}
-										className="project-mobile-text-animate1 absolute top-[100px] left-0"
-									>
-										dolor sit amet,
-									</motion.p>
-								</div>
-								<div className="relative overflow-hidden h-[50px]">
-									<motion.p
-										variants={animation}
-										className="project-mobile-text-animate1 absolute top-[100px] left-0"
-									>
-										consectetur
-									</motion.p>
-								</div>
-								<div className="relative overflow-hidden h-[50px]">
-									<motion.p
-										variants={animation}
-										className="project-mobile-text-animate1 absolute top-[100px] left-0"
-									>
-										adipiscing elit,
-									</motion.p>
-								</div>
-								<div className="relative overflow-hidden h-[50px]">
-									<motion.p
-										variants={animation}
-										className="project-mobile-text-animate1 absolute top-[100px] left-0"
-									>
-										sed do eiusmod
-									</motion.p>
-								</div>
-								<div className="relative overflow-hidden h-[50px]">
-									<motion.p
-										variants={animation}
-										className="project-mobile-text-animate1 absolute top-[100px] left-0"
-									>
-										tempor
-									</motion.p>
-								</div>
-								<div className="relative overflow-hidden h-[50px]">
-									<motion.p
-										variants={animation}
-										className="project-mobile-text-animate1 absolute top-[100px] left-0"
-									>
-										incididunt.
-									</motion.p>
-								</div>
-							</RisingAnimationText>
-						</section>
-
-						<section className="grid grid-cols-1 sm:grid-cols-2 mt-20 sm:mt-32">
-							<RisingAnimationText animateName="project-text-animate2">
-								<div className="relative overflow-hidden h-[25px] text-20 sm:mt-16">
-									<motion.p
-										variants={animation}
-										className="project-text-animate2 absolute top-[100px] left-0"
-									>
-										Rapid Product
-									</motion.p>
-								</div>
-								<div className="relative overflow-hidden h-[25px] text-20">
-									<motion.p
-										variants={animation}
-										className="project-text-animate2 absolute top-[100px] left-0"
-									>
-										Prototyping
-									</motion.p>
-								</div>
-								<div className="relative overflow-hidden h-[25px] text-20">
-									<motion.p
-										variants={animation}
-										className="project-text-animate2 absolute top-[100px] left-0"
-									>
-										Information Architecture
-									</motion.p>
-								</div>
-								<div className="relative overflow-hidden h-[25px] text-20">
-									<motion.p
-										variants={animation}
-										className="project-text-animate2 absolute top-[100px] left-0"
-									>
-										User Interface
-									</motion.p>
-								</div>
-							</RisingAnimationText>
-
-							<div className="mt-24 sm:mt-0">
-								<RisingAnimationText animateName="project-text-animate3">
-									<div className="relative overflow-hidden h-[40px] text-[30px]">
-										<motion.p
-											variants={animation}
-											className="project-text-animate3 absolute top-[100px] left-0"
-										>
-											About
-										</motion.p>
-									</div>
-
-									<div className="relative overflow-hidden h-[32px] text-[26px] mt-10">
-										<motion.p
-											variants={animation}
-											className="project-text-animate3 absolute top-[100px] left-0"
-										>
-											Lorem ipsum dolor sit amet,
-											consectetur adipiscing elit, sed
-										</motion.p>
-									</div>
-									<div className="relative overflow-hidden h-[32px] text-[26px]">
-										<motion.p
-											variants={animation}
-											className="project-text-animate3 absolute top-[100px] left-0"
-										>
-											do eiusmod tempor incididunt ut
-											labore et dolore magna
-										</motion.p>
-									</div>
-									<div className="relative overflow-hidden h-[32px] text-[26px]">
-										<motion.p
-											variants={animation}
-											className="project-text-animate3 absolute top-[100px] left-0"
-										>
-											aliqua. Ut enim ad minim veniam,
-											quis nostrud exercitation
-										</motion.p>
-									</div>
-									<div className="relative overflow-hidden h-[32px] text-[26px]">
-										<motion.p
-											variants={animation}
-											className="project-text-animate3 absolute top-[100px] left-0"
-										>
-											ullamco laboris nisi ut aliquip ex
-											ea commodo consequat.
-										</motion.p>
-									</div>
-
-									<div className="relative overflow-hidden h-[32px] text-[26px] mt-10">
-										<motion.p
-											variants={animation}
-											className="project-text-animate3 absolute top-[100px] left-0"
-										>
-											Lorem ipsum dolor sit amet,
-											consectetur adipiscing elit, sed
-										</motion.p>
-									</div>
-									<div className="relative overflow-hidden h-[32px] text-[26px]">
-										<motion.p
-											variants={animation}
-											className="project-text-animate3 absolute top-[100px] left-0"
-										>
-											do eiusmod tempor incididunt ut
-											labore et dolore magna
-										</motion.p>
-									</div>
-									<div className="relative overflow-hidden h-[32px] text-[26px]">
-										<motion.p
-											variants={animation}
-											className="project-text-animate3 absolute top-[100px] left-0"
-										>
-											aliqua. Ut enim ad minim veniam,
-											quis nostrud exercitation
-										</motion.p>
-									</div>
-									<div className="relative overflow-hidden h-[32px] text-[26px]">
-										<motion.p
-											variants={animation}
-											className="project-text-animate3 absolute top-[100px] left-0"
-										>
-											ullamco laboris nisi ut aliquip ex
-											ea commodo consequat.
-										</motion.p>
-									</div>
-								</RisingAnimationText>
-
-								<RisingAnimationDiv classes="mt-14 sm:mt-28">
-									<div className="flex justify-start">
-										<div className="text-white flex justify-center items-center relative w-auto">
-											<img
-												src="img/maskLeft.png"
-												style={{
-													height: '100%',
-													display: isDark
-														? 'block'
-														: 'none',
-												}}
-												className="absolute top-0 left-[0px] z-10 pointer-events-none"
-											/>
-											<img
-												src="img/maskleftlight.png"
-												style={{
-													height: '100%',
-													display: isDark
-														? 'none'
-														: 'block',
-												}}
-												className="absolute top-0 left-[0px] z-10 pointer-events-none"
-											/>
-											<Link scroll={false} href="/about">
-												<button
-													ref={buttonOne}
-													style={{
-														opacity: 0,
-														transform:
-															'translate(0,200px)',
-													}}
-													className={
-														isDark
-															? 'animation-button border-gray-700 mx-[1px]'
-															: 'animation-button blue-button border-gray-700 mx-[1px]'
-													}
-													onMouseMove={buttonOverIn}
-													onMouseLeave={buttonOverOut}
-												>
-													<div
-														className="btn-content h-[70px]"
-														style={{
-															color: isDark
-																? 'white'
-																: 'black',
-														}}
-													>
-														<div className="btn-content-group">
-															<div className="mx-2 text-16">
-																VISIT WEBSITE
-															</div>
-															<div className="mx-2">
-																{allow}
-															</div>
-														</div>
-													</div>
-												</button>
-											</Link>
-
-											<img
-												src="img/maskRight.png"
-												style={{
-													height: '100%',
-													display: isDark
-														? 'block'
-														: 'none',
-												}}
-												className="absolute top-0 right-[0px] z-10 pointer-events-none"
-											/>
-											<img
-												src="img/maskrightlight.png"
-												style={{
-													height: '100%',
-													display: isDark
-														? 'none'
-														: 'block',
-												}}
-												className="absolute top-0 right-[0px] z-10 pointer-events-none"
-											/>
-										</div>
-									</div>
-								</RisingAnimationDiv>
-							</div>
-						</section>
-
-						<div className="mt-24 sm:mt-40">
-							<DivisionLine color={'white'} />
-						</div>
-
-						<section className="py-12">
-							<RisingAnimationText animateName="project-text-animate4">
-								<div className="grid grid-cols-1 sm:grid-cols-4 gap-14 sm:gap-0">
-									<div className="text-[30px] leading-8">
-										<div className="relative overflow-hidden h-[74px]">
-											<motion.p
-												variants={animation}
-												className="project-text-animate4 absolute top-[200px] left-0"
-											>
-												SERVICES
-												<br />
-												USED
-											</motion.p>
-										</div>
-									</div>
-
-									<div className="text-20">
-										<div className="relative overflow-hidden h-[140px]">
-											<motion.p
-												variants={animation}
-												className="project-text-animate4 absolute top-[200px] left-0"
-											>
-												Rapid Product
-												<br />
-												Prototyping
-												<br />
-												Information Architecture
-												<br />
-												User Interface
-												<br />
-											</motion.p>
-										</div>
-									</div>
-
-									<div className="text-20">
-										<div className="relative overflow-hidden h-[140px]">
-											<motion.p
-												variants={animation}
-												className="project-text-animate4 absolute top-[200px] left-0"
-											>
-												Graphic Design
-												<br />
-												Brand Identity
-												<br />
-												Content Creation
-												<br />
-												Motion Design
-												<br />
-												Art Direction
-												<br />
-											</motion.p>
-										</div>
-									</div>
-
-									<div className="text-20">
-										<div className="relative overflow-hidden h-[140px]">
-											<motion.p
-												variants={animation}
-												className="project-text-animate4 absolute top-[100px] left-0"
-											>
-												Graphic Design
-												<br />
-												Brand Identity
-												<br />
-												Content Creation
-												<br />
-												Motion Design
-												<br />
-												Art Direction
-												<br />
-											</motion.p>
-										</div>
-									</div>
-								</div>
-							</RisingAnimationText>
-						</section>
-
-						<section className="w-full md:w-[1440px] md:mx-auto h-[236px] sm:h-[772px] mt-12 mb-15">
-							<RisingAnimationDiv classes="w-full md:w-[1440px] md:mx-auto h-[236px] sm:h-[772px] mt-12 mb-15">
-								<HoverEffectOnImage
-									url="/img/projects/02.png"
-									width="1440px"
-									height="772px"
-								/>
-							</RisingAnimationDiv>
-						</section>
-
-						<section className="w-full h-full mt-36 sm:mt-52 text-[76px] leading-[80px]">
-							<div className="w-full hidden sm:block">
-								<RisingAnimationText animateName="project-text-animate5">
-									<div className="relative overflow-hidden h-[84px]">
-										<motion.p
-											variants={animation}
-											className="project-text-animate5 absolute top-[100px] left-0"
-										>
-											&nbsp;&nbsp;&nbsp;&nbsp;“Lorem ipsum
-											dolor sit amet,
-										</motion.p>
-									</div>
-									<div className="relative overflow-hidden h-[84px]">
-										<motion.p
-											variants={animation}
-											className="project-text-animate5 absolute top-[100px] left-0"
-										>
-											<div className="flex items-center">
-												consectetur&nbsp;
-												<FaCircle className="text-[50px]" />
-												&nbsp;adipiscing elit,
-											</div>
-										</motion.p>
-									</div>
-									<div className="relative overflow-hidden h-[84px]">
-										<motion.p
-											variants={animation}
-											className="project-text-animate5 absolute top-[100px] left-0"
-										>
-											sed do eiusmod tempor
-										</motion.p>
-									</div>
-									<div className="relative overflow-hidden h-[84px]">
-										<motion.p
-											variants={animation}
-											className="project-text-animate5 absolute top-[100px] left-0"
-										>
-											incididunt ut labore et dolore”
-										</motion.p>
-									</div>
-								</RisingAnimationText>
-							</div>
-
-							<div className="w-full sm:hidden text-[38px] leading-[40px]">
-								<RisingAnimationText animateName="project-text-mobile-animate5">
-									<div className="relative overflow-hidden h-[45px]">
-										<motion.p
-											variants={animation}
-											className="project-text-mobile-animate5 absolute top-[100px] left-0"
-										>
-											&nbsp;&nbsp;“Lorem ipsum
-										</motion.p>
-									</div>
-									<div className="relative overflow-hidden h-[45px]">
-										<motion.p
-											variants={animation}
-											className="project-text-mobile-animate5 absolute top-[100px] left-0"
-										>
-											dolor sit amet,
-										</motion.p>
-									</div>
-									<div className="relative overflow-hidden h-[45px]">
-										<motion.p
-											variants={animation}
-											className="project-text-mobile-animate5 absolute top-[100px] left-0"
-										>
-											consectetur
-										</motion.p>
-									</div>
-									<div className="relative overflow-hidden h-[45px]">
-										<motion.p
-											variants={animation}
-											className="project-text-mobile-animate5 absolute top-[100px] left-0"
-										>
-											adipiscing elit,
-										</motion.p>
-									</div>
-									<div className="relative overflow-hidden h-[45px]">
-										<motion.p
-											variants={animation}
-											className="project-text-mobile-animate5 absolute top-[100px] left-0"
-										>
-											sed do eiusmod
-										</motion.p>
-									</div>
-									<div className="relative overflow-hidden h-[45px]">
-										<motion.p
-											variants={animation}
-											className="project-text-mobile-animate5 absolute top-[100px] left-0"
-										>
-											tempor{' '}
-										</motion.p>
-									</div>
-									<div className="relative overflow-hidden h-[45px]">
-										<motion.p
-											variants={animation}
-											className="project-text-mobile-animate5 absolute top-[100px] left-0"
-										>
-											incididunt ut
-										</motion.p>
-									</div>
-									<div className="relative overflow-hidden h-[45px]">
-										<motion.p
-											variants={animation}
-											className="project-text-mobile-animate5 absolute top-[100px] left-0"
-										>
-											labore et”
-										</motion.p>
-									</div>
-								</RisingAnimationText>
-							</div>
-
-							<div className="text-[14px] mt-8 w-full sm:w-[500px] leading-5">
-								<DotText
-									scrollAnimation={true}
-									text="Lorem ipsum dolor sit amet, consectetur"
-								/>
-							</div>
-						</section>
-
-						<section className="w-full h-full mt-32 sm:mt-52 text-[36px] sm:text-[50px] sm:flex leading-[40px] sm:leading-[52px]">
-							<div className="w-full sm:w-[300px]">
-								<RisingAnimationText animateName="project-text-animate6">
-									<div className="relative overflow-hidden h-[40px] leading-8 text-[30px]">
-										<motion.p
-											variants={animation}
-											className="project-text-animate6 absolute top-[100px] left-0"
-										>
-											ABOUT
-										</motion.p>
-									</div>
-								</RisingAnimationText>
-							</div>
-							<div className="w-full mt-20 sm:mt-0">
-								<RisingAnimationDiv classes="w-full">
-									Lorem ipsum dolor sit amet, consectetur
-									adipiscing elit, sed do eiusmod tempor
-									incididunt ut labore et dolore magna aliqua.
-									Ut enim ad minim veniam, quis nostrud
-									exercitation ullamco laboris nisi ut
-									aliquip.
-								</RisingAnimationDiv>
-								<RisingAnimationDiv classes="w-full mt-16">
-									Ex ea commodo consequat. Duis aute irure
-									dolor in reprehenderit in voluptate velit
-									esse cillum dolore eu fugiat nulla pariatur.
-									Excepteur sint occaecat cupidatat non
-									proident, sunt in culpa qui officia deserunt
-									mollit anim id.
-								</RisingAnimationDiv>
-							</div>
-						</section>
-
-						<section className="w-full md:w-[1440px] md:mx-auto h-[236px] sm:h-[745px] mt-24 sm:mt-50 mb-15">
-							<RisingAnimationDiv classes="w-full md:w-[1440px] md:mx-auto h-[236px] sm:h-[745px] mt-12 sm:mt-20 mb-15">
-								<HoverEffectOnImage
-									url="/img/projects/03.png"
-									width="1440px"
-									height="745px"
-								/>
-							</RisingAnimationDiv>
-						</section>
-
-						<section className="w-full md:w-[1440px] md:mx-auto h-[236px] sm:h-[636px] mt-12 sm:mt-20 mb-15">
-							<RisingAnimationDiv classes="w-full md:w-[1440px] md:mx-auto h-[236px] sm:h-[636px] mt-12 sm:mt-20 mb-15">
-								<HoverEffectOnImage
-									url="/img/projects/01.png"
-									width="1440px"
-									height="636px"
-								/>
-							</RisingAnimationDiv>
-						</section>
-
-						<div className="w-full h-24 sm:h-60"></div>
-
-						<div className="w-full text-14 flex justify-end mb-4 sm:mb-14">
-							<div className="w-[170px]">
-								<DotText
-									scrollAnimation={true}
-									text="SELECT PROJECTS"
-								/>
-							</div>
-						</div>
-						<motion.section
-							animate={{ transition: { staggerChildren: 0.5 } }}
-							className="horizontal-section"
-						>
-							<HorizontalText
-								step={-2.1}
-								text="VICIS PRO /"
-								url={'img/img00.jpg'}
-								index={0}
-							/>
-							<HorizontalText
-								step={2.1}
-								text="OPEN FORMAT /"
-								url={'img/img01.jpg'}
-								index={1}
-							/>
-							<HorizontalText
-								step={-1.2}
-								text="BLUEPRINT PHOENIX /"
-								url={'img/img02.jpg'}
-								index={2}
-							/>
-							<HorizontalText
-								step={1.2}
-								text="TWELVES /"
-								url={'img/img03.jpg'}
-								index={3}
-							/>
-							<HorizontalText
-								step={-3.3}
-								text="CROOKS&CASTLES /"
-								url={'img/img04.jpg'}
-								index={4}
-							/>
-							<HorizontalText
-								step={3.3}
-								text="JASON MARKK /"
-								url={'img/img05.jpg'}
-								index={5}
-							/>
-						</motion.section>
 
 						<section id="footer">
 							<section className="mt-[110px] md:mt-[250px]  mb-[110px]">
