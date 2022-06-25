@@ -15,8 +15,8 @@ import { motion } from 'framer-motion'
 import { CustomEase } from 'gsap/CustomEase'
 import { gsap } from 'gsap'
 gsap.registerPlugin(CustomEase)
-const color1 = '#000'
-const color2 = '#e2e2e2'
+const color1 = '#F10086'
+const color2 = '#e9d5da'
 
 const Home: NextPage = () => {
 	const [isDark, setDark] = useState(true)
@@ -222,7 +222,7 @@ const Home: NextPage = () => {
 
 					<motion.div exit="exit" className="content">
 						<section className="title-text sm:mb-[0px] md:mb-[150px] lg:mb-[0px] sm:text-[53px] md:text-[62px] lg:text-[85px] xl:text-[97px] leading-[50px] md:leading-[100px] text-center w-[1100px] mx-auto">
-							<motion.div ref={textOne} className="title1 mt-32">
+							<motion.div ref={textOne} className="title1 mt-20">
 								<div className="relative overflow-hidden h-[100px]">
 									<motion.p
 										variants={animation}
@@ -254,7 +254,7 @@ const Home: NextPage = () => {
 										variants={animation}
 										className="animation-text1"
 									>
-										knowscount@gmail.com
+										shuoshuofeng@live.com
 									</motion.p>
 								</div>
 							</motion.div>
@@ -282,7 +282,7 @@ const Home: NextPage = () => {
 										variants={animation}
 										className="animation-text1 text-[30px] leading-8"
 									>
-										knowscount@gmail.com{' '}
+										shuoshuofeng@live.com{' '}
 									</motion.p>
 								</div>
 
@@ -302,11 +302,11 @@ const Home: NextPage = () => {
 							</div>
 						</section>
 
-						<section className="mt-16 sm:mt-24 mb-10 sm:mb-20 w-[2000px] -ml-[300px]">
+						<section className="mt-16 sm:mt-20 mb-10 sm:mb-20 w-[2000px] -ml-[300px]">
 							<SocialBar />
 						</section>
 
-						<section className="mt-20 sm:mt-32 mb-20">
+						<section className="mt-20 sm:mt-20 mb-20">
 							<RisingAnimationText animateName="contact-text-animate1">
 								<div className=" relative overflow-hidden h-[40px] sm:h-[90px]">
 									<motion.p
@@ -332,7 +332,7 @@ const Home: NextPage = () => {
 												variants={animation}
 												className="contact-text-animate1 absolute top-[100px] text-[14px] left-0"
 											>
-												knowscount@gmail.com
+												shuoshuofeng@live.com
 											</motion.p>
 										</div>
 									</div>

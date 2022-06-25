@@ -96,7 +96,7 @@ const Header = (props: any) => {
 					>
 						Contact?
 						<div className="underline -mt-2">
-							knowscount&#64;gmail.com
+							shuoshuofeng&#64;live.com
 						</div>
 					</motion.a>
 

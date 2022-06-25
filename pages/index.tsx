@@ -18,8 +18,10 @@ import { motion } from 'framer-motion'
 import TweenLite, { gsap } from 'gsap'
 import { CustomEase } from 'gsap/CustomEase'
 gsap.registerPlugin(CustomEase)
-const color1 = '#000'
-const color2 = '#e2e2e2'
+const color1 = '#F10086'
+const color2 = '#e9d5da'
+// requirement: 淡字，小一点，和前面齐平。its difficult to achieve that because of the way I implemented the component.
+const lightenedText = '(may be annoying but cats consider them weirdly humorous)'
 
 const Home: NextPage = () => {
 	const [isDark, setDark] = useState(true)
@@ -329,7 +331,7 @@ const Home: NextPage = () => {
 					<Header />
 					<motion.div exit="exit" className="content">
 						<section className="title-text fluid__item fluid__item--home fluid__item--current sm:mb-[0px] md:mb-[150px] lg:mb-[0px] sm:text-[53px] md:text-[62px] lg:text-[85px] xl:text-[97px] leading-[50px] md:leading-[100px]">
-							<motion.div ref={textOne} className="title1 mt-32">
+							<motion.div ref={textOne} className="title1 mt-20">
 								<div className="animation-mask">
 									<motion.p
 										variants={animation}
@@ -576,6 +578,13 @@ const Home: NextPage = () => {
 
 						<section className="mt-[50px] mb-[110px] md:mb-[250px]">
 							<div className="h-[50px] hidden md:block"></div>
+							<div className="flex justify-end">
+								<DotText scrollAnimation={true} text={`Intro ${(lightenedText)}`} />
+							</div>
+						</section>
+
+						<section className="mt-[50px] mb-[110px] md:mb-[250px]">
+							<div className="h-[50px] hidden md:block"></div>
 
 							<div className="flex justify-end">
 								<DotText scrollAnimation={true} text="about" />
@@ -589,7 +598,7 @@ const Home: NextPage = () => {
 								<div className="w-full md:w-[500px] flex justify-end">
 									<DotText
 										scrollAnimation={true}
-										text="our mission is to assist passionate brands to compete at a high level through strategy-led design."
+										text="In here we will hold seminars, have human rights & justice & writing workshops, talk *freely*. and write them out with us! All activities are entirely student-led (or should I say cat-led?) and we always welcome new participants and submissions!"
 									/>
 								</div>
 

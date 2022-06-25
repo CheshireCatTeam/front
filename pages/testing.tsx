@@ -6,8 +6,8 @@ import Script from 'next/script'
 import Horizontal from './components/Horizontal'
 import ParallaxEffect from './components/ParallaxEffectThree'
 import SmoothScroll from './components/SmoothScroll'
-const color1 = '#000'
-const color2 = '#e2e2e2'
+const color1 = '#F10086'
+const color2 = '#e9d5da'
 
 const Home: NextPage = () => {
 	return (

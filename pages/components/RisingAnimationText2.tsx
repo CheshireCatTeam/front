@@ -63,9 +63,9 @@ const RisingAnimationText2 = () => {
 						<div>this&nbsp;</div>
 						<div>is&nbsp;</div>
 						<div>the&nbsp;</div>
-						<div>space&nbsp;</div>
+						<div>place&nbsp;</div>
 						<div>for&nbsp;</div>
-						<div>all</div>
+						<div>satires</div>
 					</motion.div>
 				</div>
 				<div className="animation-mask2">
@@ -73,10 +73,10 @@ const RisingAnimationText2 = () => {
 						variants={FadeOutAnimation}
 						className="animation-text2 strechText"
 					>
-						<div>our&nbsp;</div>
-						<div>amazing&nbsp;</div>
-						<div>works:&nbsp;</div>
-						<div>where your</div>
+						<div>about&nbsp;</div>
+						<div>sensitive&nbsp;</div>
+						<div>topics&nbsp;</div>
+						<div>that you</div>
 					</motion.div>
 				</div>
 				<div className="animation-mask2">
@@ -84,9 +84,9 @@ const RisingAnimationText2 = () => {
 						variants={FadeOutAnimation}
 						className="animation-text2 strechText"
 					>
-						<div>thoughts,&nbsp;</div>
-						<div>plots,&nbsp;</div>
-						<div>strucutre</div>
+						<div>can't or&nbsp;</div>
+						<div>don't want&nbsp;</div>
+						<div>to criticise</div>
 					</motion.div>
 				</div>
 				<div className="animation-mask2">
@@ -94,81 +94,8 @@ const RisingAnimationText2 = () => {
 						variants={FadeOutAnimation}
 						className="animation-text2 strechText justify-start"
 					>
-						<div>of satires</div>
-						<div>&nbsp;&nbsp;dwell.</div>
-					</motion.div>
-				</div>
-			</div>
-			<div className="md:hidden text-[9vw] leading-[10vw]">
-				<div className="animation-mask2">
-					<motion.div
-						variants={FadeOutAnimation}
-						className="animation-text2 strechText"
-					>
-						<div>we</div>
-						<div>are</div>
-						<div>a</div>
-						<div>digital</div>
-					</motion.div>
-				</div>
-				<div className="animation-mask2">
-					<motion.div
-						variants={FadeOutAnimation}
-						className="animation-text2 strechText"
-					>
-						<div>design</div>
-						<div>and</div>
-					</motion.div>
-				</div>
-				<div className="animation-mask2">
-					<motion.div
-						variants={FadeOutAnimation}
-						className="animation-text2 strechText"
-					>
-						<div>branding</div>
-						<div>agency</div>
-					</motion.div>
-				</div>
-				<div className="animation-mask2">
-					<motion.div
-						variants={FadeOutAnimation}
-						className="animation-text2 strechText"
-					>
-						<div>focused</div>
-						<div>on</div>
-					</motion.div>
-				</div>
-				<div className="animation-mask2">
-					<motion.div
-						variants={FadeOutAnimation}
-						className="animation-text2"
-					>
-						eCommerce
-					</motion.div>
-				</div>
-				<div className="animation-mask2">
-					<motion.div
-						variants={FadeOutAnimation}
-						className="animation-text2 strechText"
-					>
-						<div>development</div>
-						<div>for</div>
-					</motion.div>
-				</div>
-				<div className="animation-mask2">
-					<motion.div
-						variants={FadeOutAnimation}
-						className="animation-text2"
-					>
-						Shopify
-					</motion.div>
-				</div>
-				<div className="animation-mask2">
-					<motion.div
-						variants={FadeOutAnimation}
-						className="animation-text2"
-					>
-						merchants
+						<div>directly &</div>
+						<div>&nbsp;&nbsp;explicitly.</div>
 					</motion.div>
 				</div>
 			</div>
