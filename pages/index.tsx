@@ -704,6 +704,7 @@ const Home: NextPage = () => {
 								text="DICTIONARY REVISION /"
 								url={'img/img00.jpg'}
 								index={0}
+								title="dict"
 							/>
 							<HorizontalText
 								step={2.1}
