@@ -26,8 +26,8 @@ const Home: NextPage = () => {
 	const footer = useRef<HTMLHeadingElement>(null)
 	const letswork = useRef<HTMLHeadingElement>(null)
 
-	const color1 = '#000'
-	const color2 = '#e2e2e2'
+	const color1 = '#F10086'
+	const color2 = '#e9d5da'
 
 	function AnimationText() {
 		CustomEase.create('cubic-bezier', '.19,1,.22,1')
@@ -224,7 +224,7 @@ const Home: NextPage = () => {
 					<Header />
 					<motion.div exit="exit" className="content">
 						<section className="title-text fluid__item fluid__item--home fluid__item--current sm:mb-[0px] md:mb-[150px] lg:mb-[0px] sm:text-[53px] md:text-[62px] lg:text-[85px] xl:text-[97px] leading-[50px] md:leading-[100px]">
-							<motion.div ref={textOne} className="title1 mt-32">
+							<motion.div ref={textOne} className="title1 mt-20">
 								<div className="relative overflow-hidden h-[100px]">
 									<motion.p
 										variants={animation}

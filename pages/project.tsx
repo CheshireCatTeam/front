@@ -21,8 +21,8 @@ import TweenLite, { gsap } from 'gsap'
 import { CustomEase } from 'gsap/CustomEase'
 
 gsap.registerPlugin(CustomEase)
-const color1 = '#000'
-const color2 = '#e2e2e2'
+const color1 = '#F10086'
+const color2 = '#e9d5da'
 
 const Home: NextPage = () => {
 	const [isDark, setDark] = useState(true)
@@ -229,7 +229,7 @@ const Home: NextPage = () => {
 						<section className="sm:mb-[0px] md:mb-[150px] lg:mb-[0px] text-[50px] sm:text-[53px] md:text-[62px] lg:text-[85px] xl:text-[97px] leading-[50px] md:leading-[100px]">
 							<motion.div
 								ref={textOne}
-								className="mt-20 sm:mt-32"
+								className="mt-20 sm:mt-20"
 							>
 								<div className="animation-mask">
 									<motion.p
@@ -276,7 +276,7 @@ const Home: NextPage = () => {
 						</div>
 
 						{/* a paragraph of centered text */}
-						<section className="mt-16 sm:mt-32">
+						<section className="mt-16 sm:mt-20">
 							<p>In line with the concern for the freedom of speech and convenience of citizens’ daily communication, as well as the usage of accurate and standardized written language, the State Council announced the official launch of the Dictionary’s revision process in the previous meeting. A few amendments are made, after throughout consideration by authoritative scholars, on the lexical expression, and are expected to be strictly applied in future oral and written expressions.</p>
 							<br />
 							<p>The main amendments are the following:</p>

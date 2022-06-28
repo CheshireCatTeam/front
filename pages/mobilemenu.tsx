@@ -11,8 +11,8 @@ import { motion } from 'framer-motion'
 import TweenLite, { gsap } from 'gsap'
 import { CustomEase } from 'gsap/CustomEase'
 gsap.registerPlugin(CustomEase)
-const color1 = '#000'
-const color2 = '#e2e2e2'
+const color1 = '#F10086'
+const color2 = '#e9d5da'
 
 const Home: NextPage = () => {
 	const router = useRouter()
@@ -348,7 +348,7 @@ const Home: NextPage = () => {
 											variants={animation}
 											className="mobile-menu-contact-animation font-normal absolute top-[100px] left-0 underline"
 										>
-											studio@sTUDIO.co
+											shuoshuofeng@live.com
 										</motion.p>
 									</div>
 								</div>
