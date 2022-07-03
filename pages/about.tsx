@@ -26,7 +26,7 @@ const Home: NextPage = () => {
 	const footer = useRef<HTMLHeadingElement>(null)
 	const letswork = useRef<HTMLHeadingElement>(null)
 
-	const color1 = '#F10086'
+	const color1 = '#C8A2C8'
 	const color2 = '#e9d5da'
 
 	function AnimationText() {

@@ -6,7 +6,7 @@ import { CustomEase } from 'gsap/CustomEase'
 
 gsap.registerPlugin(CustomEase)
 
-const DotTextBig = (props: any) => {
+const DotText = (props: any) => {
 	const [animation, setanimation] = useState(false)
 	const dotTextref = useRef<HTMLHeadingElement>(null)
 
@@ -64,7 +64,7 @@ const DotTextBig = (props: any) => {
 			>
 				<FaCircle className="mt-1.5 text-10" />
 				<div
-					className="w-full ml-3 h-auto"
+					className="w-full ml-3 h-auto text-36"
 					style={{ fontFamily: 'SpaceMono' }}
 				>
 					{props.text}
@@ -74,4 +74,4 @@ const DotTextBig = (props: any) => {
 	)
 }
 
-export default DotTextBig
+export default DotText

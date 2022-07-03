@@ -45,7 +45,7 @@ const HorizontalText = (props: any) => {
 			{
 				<div className="w-full">
 					<div className="w-full overflow-hidden">
-						<Link href={`/satires/${title}`}>
+						<Link href={`/satires/`}>
 							<a
 								aria-label="link"
 								target="_parent"
