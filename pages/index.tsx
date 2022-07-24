@@ -630,7 +630,7 @@ const Home: NextPage = () => {
 											}}
 											className="absolute top-0 left-[0px] z-10 pointer-events-none"
 										/>
-										<Link scroll={false} href="/about">
+										<Link scroll={false} href="/works">
 											<button
 												ref={buttonOne}
 												style={{
