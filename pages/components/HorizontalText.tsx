@@ -45,8 +45,7 @@ const HorizontalText = (props: any) => {
 			{
 				<div className="w-full">
 					<div className="w-full overflow-hidden">
-						{/* a for loop that increases a value i */}
-						<Link href={`/project`}>
+						<Link href={`/satires/`}>
 							<a
 								aria-label="link"
 								target="_parent"

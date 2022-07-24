@@ -7,6 +7,7 @@ import * as THREE from 'three'
 import FollowCursor from './components/FollowerCursor'
 import Header from './components/Header'
 import DotText from './components/DotText'
+import DotTextBig from './components/DotText'
 import HorizontalText from './components/HorizontalText'
 import RisingAnimationText2 from './components/RisingAnimationText2'
 import RisingAnimationText3 from './components/RisingAnimationText3'
@@ -18,7 +19,7 @@ import { motion } from 'framer-motion'
 import TweenLite, { gsap } from 'gsap'
 import { CustomEase } from 'gsap/CustomEase'
 gsap.registerPlugin(CustomEase)
-const color1 = '#F10086'
+const color1 = '#C8A2C8'
 const color2 = '#e9d5da'
 // requirement: 淡字，小一点，和前面齐平。its difficult to achieve that because of the way I implemented the component.
 const lightenedText = '(may be annoying but cats consider them weirdly humorous)'
@@ -345,7 +346,7 @@ const Home: NextPage = () => {
 										variants={animation}
 										className="animation-text1"
 									>
-										SEMINAR&nbsp;sessions:
+										SEMINARS,&nbsp;Political &
 									</motion.p>
 								</div>
 								<div className="animation-mask sm:w-4/5 xl:w-full h-[200px]">
@@ -355,7 +356,7 @@ const Home: NextPage = () => {
 									>
 										<div className="flex flex-wrap justify-between items-center">
 											<p className=" text-justify">
-												social&nbsp;issues
+												social&nbsp;discussions
 											</p>
 											<p className=" text-justify"></p>
 											<div className="text-white flex justify-center items-center relative mx-5">
@@ -432,7 +433,7 @@ const Home: NextPage = () => {
 													{'&'}
 												</p>
 												<p className="text-justify">
-													literature
+													SATIRE WRITING
 												</p>
 											</div>
 										</div>
@@ -596,7 +597,7 @@ const Home: NextPage = () => {
 
 							<div className="md:flex justify-between items-center mt-4">
 								<div className="w-full md:w-[500px] flex justify-end">
-									<DotText
+									<DotTextBig
 										scrollAnimation={true}
 										text="In here we will hold seminars, have human rights & justice & writing workshops, talk *freely*. and write them out with us! All activities are entirely student-led (or should I say cat-led?) and we always welcome new participants and submissions!"
 									/>
@@ -713,6 +714,7 @@ const Home: NextPage = () => {
 								text="DICTIONARY REVISION /"
 								url={'img/img00.jpg'}
 								index={0}
+								title="dict"
 							/>
 							<HorizontalText
 								step={2.1}

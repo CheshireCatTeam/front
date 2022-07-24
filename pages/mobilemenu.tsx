@@ -11,7 +11,7 @@ import { motion } from 'framer-motion'
 import TweenLite, { gsap } from 'gsap'
 import { CustomEase } from 'gsap/CustomEase'
 gsap.registerPlugin(CustomEase)
-const color1 = '#F10086'
+const color1 = '#C8A2C8'
 const color2 = '#e9d5da'
 
 const Home: NextPage = () => {

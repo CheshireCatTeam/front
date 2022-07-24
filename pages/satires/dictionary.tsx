@@ -4,25 +4,25 @@ import type { NextPage } from 'next'
 import Link from 'next/link'
 import Head from 'next/head'
 
-import FollowCursor from './components/FollowerCursor'
-import Header from './components/Header'
-import DotText from './components/DotText'
-import HorizontalText from './components/HorizontalText'
-import RisingAnimationText2 from './components/RisingAnimationText2'
-import RisingAnimationText3 from './components/RisingAnimationText3'
-import RisingAnimationText from './components/RisingAnimationText'
-import HoverEffectOnImage from './components/HoverEffectOnImage'
-import RisingAnimationDiv from './components/RisingAnimationDiv'
-import SmoothScroll from './components/SmoothScroll'
-import DivisionLine from './components/DivisionLine'
-import Landing from './components/Landing'
+import FollowCursor from '../components/FollowerCursor'
+import Header from '../components/Header'
+import DotText from '../components/DotText'
+import HorizontalText from '../components/HorizontalText'
+import RisingAnimationText2 from '../components/RisingAnimationText2'
+import RisingAnimationText3 from '../components/RisingAnimationText3'
+import RisingAnimationText from '../components/RisingAnimationText'
+import HoverEffectOnImage from '../components/HoverEffectOnImage'
+import RisingAnimationDiv from '../components/RisingAnimationDiv'
+import SmoothScroll from '../components/SmoothScroll'
+import DivisionLine from '../components/DivisionLine'
+import Landing from '../components/Landing'
 import { motion } from 'framer-motion'
 import TweenLite, { gsap } from 'gsap'
 import { CustomEase } from 'gsap/CustomEase'
 
 gsap.registerPlugin(CustomEase)
-const color1 = '#C8A2C8'
-const color2 = '#e9d5da'
+const color1 = '#000'
+const color2 = '#e2e2e2'
 
 const Home: NextPage = () => {
 	const [isDark, setDark] = useState(true)
@@ -229,7 +229,7 @@ const Home: NextPage = () => {
 						<section className="sm:mb-[0px] md:mb-[150px] lg:mb-[0px] text-[50px] sm:text-[53px] md:text-[62px] lg:text-[85px] xl:text-[97px] leading-[50px] md:leading-[100px]">
 							<motion.div
 								ref={textOne}
-								className="mt-20 sm:mt-20"
+								className="mt-20 sm:mt-32"
 							>
 								<div className="animation-mask">
 									<motion.p
@@ -276,7 +276,7 @@ const Home: NextPage = () => {
 						</div>
 
 						{/* a paragraph of centered text */}
-						<section className="mt-16 sm:mt-20">
+						<section className="mt-16 sm:mt-32">
 							<p>In line with the concern for the freedom of speech and convenience of citizens’ daily communication, as well as the usage of accurate and standardized written language, the State Council announced the official launch of the Dictionary’s revision process in the previous meeting. A few amendments are made, after throughout consideration by authoritative scholars, on the lexical expression, and are expected to be strictly applied in future oral and written expressions.</p>
 							<br />
 							<p>The main amendments are the following:</p>

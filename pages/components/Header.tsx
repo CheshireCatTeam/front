@@ -83,25 +83,22 @@ const Header = (props: any) => {
 					<motion.a
 						href="/"
 						variants={animation}
-						className="text-24 font-bold"
+						className="text-36 font-bold"
 					>
-						Cheshire Cat
+						🐱
 					</motion.a>
 
 					<motion.a
 						href="#"
 						variants={animation}
-						className="text-14 font-normal leading-[22px]"
+						className="text-36 font-normal"
 						onClick={() => alert('Cheshire Cat')}
 					>
-						Contact?
-						<div className="underline -mt-2">
-							shuoshuofeng&#64;live.com
-						</div>
+						Submissions
 					</motion.a>
 
 					<span>
-						<motion.a
+						{/* <motion.a
 							href="/about"
 							variants={animation}
 							className="text-14 font-normal"
@@ -110,9 +107,17 @@ const Header = (props: any) => {
 						</motion.a>
 
 						<motion.a
-							href="/contact"
+							href="/about"
 							variants={animation}
 							className="text-14 font-normal"
+						>
+							&nbsp;&nbsp;Submissions&nbsp;&nbsp;/
+						</motion.a> */}
+
+						<motion.a
+							href="/contact"
+							variants={animation}
+							className="text-36 font-normal"
 						>
 							&nbsp;&nbsp;CONTACT
 						</motion.a>

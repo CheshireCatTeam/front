@@ -108,7 +108,7 @@ const RisingAnimationText3 = (props: any) => {
 											}}
 											className="absolute top-0 left-[0px] z-10 pointer-events-none"
 										/>
-										<Link href="/about" scroll={false}>
+										<Link href="/notice" scroll={false}>
 											<button
 												className={
 													props.isDark
@@ -220,7 +220,7 @@ const RisingAnimationText3 = (props: any) => {
 					className="flex justify-center mt-4"
 				>
 					<div className="text-white flex justify-center items-center relative mx-4">
-						<Link href="/about" scroll={false}>
+						<Link href="/notice" scroll={false}>
 							<button
 								className={
 									props.isDark
